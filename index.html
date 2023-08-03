@@ -1,1 +1,879 @@
-Hello World
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- sldiderr -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <style>
+        .animated-img {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 4s linear forwards;
+        }
+
+        .animated-skills {
+            position: relative;
+            opacity: 0;
+            animation: moveleft 4s linear forwards;
+        }
+
+        .animatedcard {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 3s linear forwards;
+        }
+
+        @keyframes moveleft {
+            0% {
+                opacity: 0;
+                transform: translateX(25px);
+            }
+
+            25% {
+                opacity: 0.5;
+                transform: translateX(50pxpx);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateX(75px);
+            }
+
+            75% {
+                opacity: 0.75;
+                transform: translateX(100px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(150px);
+            }
+
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateY(25px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <title>Resume</title>
+</head>
+
+<body style="background-color: #2d2e32;">
+    <nav>
+        <div class="nav-bar">
+
+            <span class="logo navLogo">
+                <!-- <img src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/logo-header.svg"> -->
+                <svg data-v-6805eed4="" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="65%" height="50%"
+                    viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet"
+                    color-interpolation-filters="sRGB" style="margin: auto;">
+                    <g data-v-6805eed4="" fill="#fff" class="bordersvg b-d1"
+                        transform="translate(31.056673526763916,46.64749440492278)">
+                        <path fill-opacity="0" stroke="#fff" stroke-width="3"
+                            d="M 146.7050018310547 52.247501373291016 A 78.35250091552734 78.35250091552734 0 1 0 146.7050018310547 104.45750045776367">
+                        </path>
+                        <g transform="translate(10,52.247501373291016)">
+                            <g>
+                                <rect data-gra="graph-name-bg" stroke-width="2" class="i-icon-bg" x="0" y="0"
+                                    width="273.4100036621094" height="52.209999084472656" fill-opacity="0"></rect>
+                                <!----> <!---->
+                            </g>
+                            <g transform="translate(10,3)">
+                                <g data-gra="path-name" fill-rule="" class="tp-name">
+                                    <g transform="scale(1)">
+                                        <g>
+                                            <path
+                                                d="M55.17 0L51.14 0 51.14-21.46 11.47-21.46 11.47 0 7.44 0 7.44-44.28 11.47-44.28 11.47-25.2 51.14-25.2 51.14-44.28 55.17-44.28 55.17 0ZM116.18 0L112.18 0 112.18-4.9Q109.86-3.64 106.91-2.58 103.96-1.51 100.69-0.74 97.42 0.03 93.97 0.45 90.53 0.87 87.21 0.87L87.21 0.87Q82.89 0.87 79.46 0.1 76.02-0.68 73.64-2.21 71.25-3.74 69.97-6.01 68.68-8.28 68.68-11.28L68.68-11.28Q68.68-14.24 70.18-16.52 71.67-18.79 74.45-20.48 77.22-22.17 81.13-23.35 85.05-24.52 89.88-25.35 94.72-26.17 100.34-26.7 105.96-27.23 112.18-27.59L112.18-27.59 112.18-30.97Q112.18-33.03 111.41-34.61 110.64-36.19 109.25-37.37 107.86-38.54 106-39.33 104.13-40.12 101.95-40.61 99.78-41.09 97.37-41.3 94.97-41.51 92.56-41.51L92.56-41.51Q89.3-41.51 86.63-41.19 83.95-40.86 81.63-40.3 79.31-39.74 77.18-38.99 75.06-38.25 72.9-37.42L72.9-37.42 72.9-42.12Q77.38-43.31 82.45-44.2 87.53-45.08 93.23-45.08L93.23-45.08Q98.07-45.08 102.26-44.26 106.45-43.44 109.54-41.64 112.63-39.83 114.41-36.98 116.18-34.13 116.18-30.04L116.18-30.04 116.18 0ZM112.18-9.12L112.18-24.01Q101.64-23.43 94.18-22.37 86.72-21.3 81.99-19.75 77.25-18.21 75.04-16.15 72.83-14.08 72.83-11.47L72.83-11.47Q72.83-9.35 73.91-7.7 74.99-6.06 77.02-4.95 79.05-3.83 81.95-3.27 84.85-2.71 88.46-2.71L88.46-2.71Q90.59-2.71 92.86-2.95 95.13-3.19 97.39-3.63 99.65-4.06 101.84-4.66 104.03-5.25 105.96-5.96 107.9-6.67 109.49-7.48 111.09-8.28 112.18-9.12L112.18-9.12ZM132.71-44.28L136.74-44.28 136.74-37.48Q138.16-38.7 139.9-40.09 141.64-41.48 143.73-42.64 145.83-43.8 148.28-44.57 150.73-45.34 153.53-45.34L153.53-45.34Q158.01-45.34 161.46-43.33 164.91-41.31 167.03-37.09L167.03-37.09Q169.1-38.99 171.29-40.52 173.48-42.06 175.78-43.12 178.09-44.18 180.54-44.76 182.99-45.34 185.6-45.34L185.6-45.34Q188.92-45.34 191.64-44.21 194.36-43.09 196.26-41.12 198.17-39.16 199.21-36.5 200.26-33.84 200.26-30.81L200.26-30.81 200.26 0 196.23 0 196.23-29.78Q196.23-32.55 195.57-34.72 194.91-36.9 193.51-38.41 192.11-39.93 189.93-40.72 187.76-41.51 184.73-41.51L184.73-41.51Q182.31-41.51 179.94-40.81 177.57-40.12 175.41-38.98 173.25-37.83 171.38-36.38 169.52-34.93 168.1-33.39L168.1-33.39Q168.26-32.48 168.27-31.84 168.29-31.2 168.29-30.29L168.29-30.29 168.29 0 164.26 0 164.26-29.78Q164.26-33.06 163.39-35.3 162.52-37.54 160.98-38.93 159.43-40.32 157.32-40.91 155.21-41.51 152.73-41.51L152.73-41.51Q150.37-41.51 148.07-40.7 145.76-39.9 143.67-38.61 141.58-37.32 139.8-35.72 138.03-34.13 136.74-32.55L136.74-32.55 136.74 0 132.71 0 132.71-44.28ZM255.79 0L236.65-20.01 217.57 0 212.48 0 234.13-22.72 213.54-44.28 218.63-44.28 236.65-25.33 254.72-44.28 259.82-44.28 239.22-22.72 260.85 0 255.79 0Z"
+                                                transform="translate(-7.440000057220459, 45.34000015258789)"></path>
+                                        </g> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+                                    </g>
+                                </g> <!---->
+                            </g>
+                        </g>
+                    </g>
+                    <defs v-gra="od"></defs>
+                </svg>
+            </span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">aktann</a></span>
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header start -->
+    <div class="header-section">
+        <div class="left-section">
+            <!-- <img class="animated-img"                src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/hero-img.png" alt="Header Image"> -->
+            <img class="animated-img" src="pngwing.com.png" alt="Header Image">
+        </div>
+        <div class="right-section">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;"> >Introduction </h2>
+            </div>
+            <div class="main-text">
+                <h1>
+
+                    Hello<br>
+                    I'm Aktan <Br>
+                    Kasymaliev🇰🇬
+                </h1>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>Since beginning my journey as a backend developer nearby 2 years <br>
+                    ago, I've done remote work for companies, tried many technologies, <br>
+                    and collaborated with talented people to create digital products.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="skills">
+        <div class="container">
+            <div style="padding: 9% 5em;" class="content-section">
+                <p style="color: #64f4ab;"> >My Skills</p>
+                <h1 style="padding:20px 1.5em; font-size: 36px;">Why?</h1>
+                <p style="padding: 25px ; font-size: larger  ;">The technological revolution is changing aspects of
+                    our lives, and the fabric of society itself. So I've chosen to be developer,
+                    and one of the many people who want to make this world a better place :)
+                </p>
+
+
+                <div class="cv-button" style="padding: 26px;">
+                    <a href="https://docs.google.com/document/d/16zWzHg2ek_1DGv8bxHVHH6BgiCuskWo2qRjq59J6SwY/edit?usp=sharing">See CV</a>
+                </div>
+            </div>
+            <div class="cards-section">
+                <div class="card  card1 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 1 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128"><path fill="#049688" d="M56.813 127.586c-1.903-.227-3.899-.52-4.434-.652a48.078 48.078 0 0 0-2.375-.5a36.042 36.042 0 0 1-2.703-.633c-4.145-1.188-4.442-1.285-7.567-2.563c-2.875-1.172-8.172-3.91-9.984-5.156c-.496-.344-.96-.621-1.031-.621c-.07 0-1.23-.816-2.578-1.813c-8.57-6.343-15.004-14.043-19.653-23.527c-.8-1.629-1.453-3.074-1.453-3.21c0-.134-.144-.505-.32-.817c-.363-.649-.88-2.047-1.297-3.492a20.047 20.047 0 0 0-.625-1.813c-.195-.46-.352-1.02-.352-1.246c0-.227-.195-.965-.433-1.645c-.238-.675-.43-1.472-.43-1.77c0-.296-.187-1.32-.418-2.276C.598 73.492 0 67.379 0 63.953c0-3.422.598-9.535 1.16-11.894c.23-.957.418-2 .418-2.32c0-.321.145-.95.32-1.4c.18-.448.41-1.253.516-1.788c.11-.535.36-1.457.563-2.055l.59-1.726c.433-1.293.835-2.387 1.027-2.813c.11-.238.539-1.21.957-2.16c.676-1.535 2.125-4.43 2.972-5.945c.309-.555.426-.739 2.098-3.352c2.649-4.148 7.176-9.309 11.39-12.988c1.485-1.297 6.446-5.063 6.669-5.063c.062 0 .53-.281 1.043-.625c1.347-.902 2.668-1.668 4.39-2.531a53.06 53.06 0 0 0 1.836-.953c.285-.164.82-.41 3.567-1.64c.605-.27 1.257-.516 3.136-1.173c.414-.144 1.246-.449 1.84-.672c.598-.222 1.301-.406 1.563-.406c.258 0 .937-.18 1.508-.402c.57-.223 1.605-.477 2.304-.563c.696-.082 1.621-.277 2.055-.43c.43-.148 1.61-.34 2.621-.425a72.572 72.572 0 0 0 3.941-.465c2.688-.394 8.532-.394 11.192 0a75.02 75.02 0 0 0 3.781.445c.953.079 2.168.278 2.703.442c.535.16 1.461.36 2.055.433c.594.079 1.594.325 2.222.551c.63.23 1.344.414 1.59.414s.754.137 1.125.309c.375.168 1.168.449 1.766.625c.594.18 1.613.535 2.27.797c.652.261 1.527.605 1.945.761c.77.29 6.46 3.137 7.234 3.622c6.281 3.917 9.512 6.476 13.856 10.964c5.238 5.414 8.715 10.57 12.254 18.16c.25.536.632 1.329.851 1.758c.215.434.395.942.395 1.13c0 .19.18.76.402 1.269c.602 1.383 1.117 2.957 1.36 4.16c.12.59.343 1.32.495 1.621c.153.3.332 1.063.403 1.688c.07.624.277 1.648.453 2.269c1.02 3.531 1.527 13.934.91 18.535c-.183 1.367-.39 3.02-.46 3.672c-.118 1.117-.708 4.004-1.212 5.945l-.52 2.055c-.98 3.957-3.402 9.594-6.359 14.809c-1.172 2.07-5.101 7.668-5.843 8.324c-.067.058-.399.45-.735.863c-.336.418-1.414 1.586-2.39 2.594c-4.301 4.441-7.77 7.187-13.86 10.969c-.722.449-6.847 3.441-7.992 3.906c-.594.238-1.586.64-2.203.89c-.613.247-1.297.454-1.512.458c-.215.003-.781.195-1.258.425c-.476.23-1.082.422-1.351.426c-.266.004-1.043.192-1.727.418c-.683.23-1.633.477-2.11.55c-.476.075-1.495.278-2.269.45c-.773.172-3.11.508-5.187.746a59.06 59.06 0 0 1-13.945-.031zm4.703-12.5c.3-.234.609-.7.691-1.027c.18-.723 29.234-58.97 29.781-59.7c.461-.617.504-1.605.082-1.953c-.222-.187-3.004-.246-10.43-.234c-5.57.012-10.253.016-10.406.012c-.226-.008-.273-3.73-.25-19.672c.016-10.817-.035-19.766-.113-19.89c-.078-.126-.383-.227-.68-.227c-.418 0-.613.18-.87.808c-.485 1.168-1.825 3.82-8.348 16.485a3554.569 3554.569 0 0 0-4.055 7.89c-1.156 2.262-2.98 5.813-4.047 7.89a8751.248 8751.248 0 0 0-8.598 16.759c-4.933 9.636-5.53 10.785-5.742 11.039c-.41.496-.633 1.64-.402 2.07c.21.394.629.41 11.043.394c5.953-.007 10.863.024 10.914.07c.137.141.086 37.31-.055 38.196c-.093.582-.031.89.235 1.156c.46.461.586.457 1.25-.066zm0 0"/></svg>
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">FastAPI</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">The framework
+                            for Python</p>
+                    </div>
+                </div>
+                <div class="card  card2 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 2 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 32 32"><path fill="#44b78b" d="M14.135 4H18.1v18.169a26.218 26.218 0 0 1-5.143.535c-4.842-.005-7.362-2.168-7.362-6.322c0-4 2.673-6.6 6.816-6.6a6.448 6.448 0 0 1 1.724.2V4Zm0 9.142a3.992 3.992 0 0 0-1.337-.2c-2 0-3.163 1.223-3.163 3.366c0 2.087 1.107 3.239 3.138 3.239a9.355 9.355 0 0 0 1.362-.1v-6.3Z"/><path fill="#44b78b" d="M24.4 10.059v9.1c0 3.133-.235 4.639-.923 5.938A6.316 6.316 0 0 1 20.237 28l-3.678-1.733a5.708 5.708 0 0 0 3.141-2.629c.566-1.121.745-2.42.745-5.837v-7.742ZM20.441 4.02h3.964v4.028h-3.964z"/></svg>
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Django
+                            </h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">The BIG framework
+                            for Python</p>
+                    </div>
+
+
+                </div>
+
+                <div class="card  card2 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 2 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256">
+                                        <g fill="none"><rect width="256" height="256" fill="#00B4E0" rx="60"/>
+                                            <path fill="#fff" d="M40.5 113.234c-.4 0-.5-.2-.3-.5l2.1-2.7c.2-.3.7-.5 1.1-.5h35.7c.4 0 .5.3.3.6l-1.7 2.6c-.2.3-.7.6-1 .6l-36.2-.1Zm-15.1 9.2c-.4 0-.5-.2-.3-.5l2.1-2.7c.2-.3.7-.5 1.1-.5h45.6c.4 0 .6.3.5.6l-.8 2.4c-.1.4-.5.6-.9.6l-47.3.1Zm24.2 9.2c-.4 0-.5-.3-.3-.6l1.4-2.5c.2-.3.6-.6 1-.6h20c.4 0 .6.3.6.7l-.2 2.4c0 .4-.4.7-.7.7l-21.8-.1Zm103.8-20.2c-6.3 1.6-10.6 2.8-16.8 4.4c-1.5.4-1.6.5-2.9-1c-1.5-1.7-2.6-2.8-4.7-3.8c-6.3-3.1-12.4-2.2-18.1 1.5c-6.8 4.4-10.3 10.9-10.2 19c.1 8 5.6 14.6 13.5 15.7c6.8.9 12.5-1.5 17-6.6c.9-1.1 1.7-2.3 2.7-3.7h-19.3c-2.1 0-2.6-1.3-1.9-3c1.3-3.1 3.7-8.3 5.1-10.9c.3-.6 1-1.6 2.5-1.6h36.4c-.2 2.7-.2 5.4-.6 8.1c-1.1 7.2-3.8 13.8-8.2 19.6c-7.2 9.5-16.6 15.4-28.5 17c-9.8 1.3-18.9-.6-26.9-6.6c-7.4-5.6-11.6-13-12.7-22.2c-1.3-10.9 1.9-20.7 8.5-29.3c7.1-9.3 16.5-15.2 28-17.3c9.4-1.7 18.4-.6 26.5 4.9c5.3 3.5 9.1 8.3 11.6 14.1c.6.9.2 1.4-1 1.7Z"/>
+                                            <path fill="#fff" d="M186.5 166.734c-9.1-.2-17.4-2.8-24.4-8.8c-5.9-5.1-9.6-11.6-10.8-19.3c-1.8-11.3 1.3-21.3 8.1-30.2c7.3-9.6 16.1-14.6 28-16.7c10.2-1.8 19.8-.8 28.5 5.1c7.9 5.4 12.8 12.7 14.1 22.3c1.7 13.5-2.2 24.5-11.5 33.9c-6.6 6.7-14.7 10.9-24 12.8c-2.7.5-5.4.6-8 .9Zm23.8-40.4c-.1-1.3-.1-2.3-.3-3.3c-1.8-9.9-10.9-15.5-20.4-13.3c-9.3 2.1-15.3 8-17.5 17.4c-1.8 7.8 2 15.7 9.2 18.9c5.5 2.4 11 2.1 16.3-.6c7.9-4.1 12.2-10.5 12.7-19.1Z"/>
+                                        </g>
+                                    </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Golang
+                            </h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">Faster than python so...
+                            </p>
+                    </div>
+                </div>
+
+                <div class="card  card2 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 2 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 185">
+                                        <path fill="#2396ED" d="M250.716 70.497c-5.765-4-18.976-5.5-29.304-3.5c-1.2-10-6.725-18.749-16.333-26.499l-5.524-4l-3.844 5.75c-4.803 7.5-7.205 18-6.485 28c.24 3.499 1.441 9.749 5.044 15.249c-3.362 2-10.328 4.5-19.455 4.5H1.155l-.48 2c-1.682 9.999-1.682 41.248 18.014 65.247c14.892 18.249 36.99 27.499 66.053 27.499c62.93 0 109.528-30.25 131.386-84.997c8.647.25 27.142 0 36.51-18.75c.24-.5.72-1.5 2.401-5.249l.961-2l-5.284-3.25ZM139.986 0h-26.42v24.999h26.42V0Zm0 29.999h-26.42v24.999h26.42v-25Zm-31.225 0h-26.42v24.999h26.42v-25Zm-31.225 0H51.115v24.999h26.421v-25ZM46.311 59.998H19.89v24.999h26.42v-25Zm31.225 0H51.115v24.999h26.421v-25Zm31.225 0h-26.42v24.999h26.42v-25Zm31.226 0h-26.422v24.999h26.422v-25Zm31.225 0H144.79v24.999h26.422v-25Z"/>
+                                    </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Docker
+                            </h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">Containers...
+                            </p>
+                    </div>
+                </div>
+
+                <div class="card  card3 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 3 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256"><g fill="none"><rect width="256" height="256" fill="#242938" rx="60"/><path fill="url(#skillIconsPythonDark0)" d="M127.279 29c-50.772 0-47.602 22.018-47.602 22.018l.057 22.81h48.451v6.85H60.489S28 76.992 28 128.221c0 51.23 28.357 49.414 28.357 49.414h16.924v-23.773s-.912-28.357 27.905-28.357h48.054s26.999.436 26.999-26.094V55.546S180.338 29 127.279 29Zm-26.716 15.339a8.708 8.708 0 0 1 8.717 8.717a8.708 8.708 0 0 1-8.717 8.716a8.708 8.708 0 0 1-8.716-8.716a8.708 8.708 0 0 1 8.716-8.717Z"/><path fill="url(#skillIconsPythonDark1)" d="M128.721 227.958c50.772 0 47.602-22.017 47.602-22.017l-.057-22.811h-48.451v-6.849h67.696S228 179.966 228 128.736c0-51.23-28.357-49.413-28.357-49.413h-16.924v23.773s.912 28.357-27.905 28.357H106.76s-27-.437-27 26.093v43.866s-4.099 26.546 48.961 26.546Zm26.716-15.339a8.708 8.708 0 0 1-8.717-8.716a8.708 8.708 0 0 1 8.717-8.717a8.709 8.709 0 0 1 8.717 8.717a8.709 8.709 0 0 1-8.717 8.716Z"/><defs><linearGradient id="skillIconsPythonDark0" x1="47.22" x2="146.333" y1="46.896" y2="145.02" gradientUnits="userSpaceOnUse"><stop stop-color="#387EB8"/><stop offset="1" stop-color="#366994"/></linearGradient><linearGradient id="skillIconsPythonDark1" x1="108.056" x2="214.492" y1="109.905" y2="210.522" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE052"/><stop offset="1" stop-color="#FFC331"/></linearGradient></defs></g></svg>                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Python
+                            </h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">My lover))</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card4 anime" style="background-color: #2d2e32;border: none;">
+                    <!-- Card 4 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 264"><path d="M255.008 158.086c-1.535-4.649-5.556-7.887-10.756-8.664c-2.452-.366-5.26-.21-8.583.475c-5.792 1.195-10.089 1.65-13.225 1.738c11.837-19.985 21.462-42.775 27.003-64.228c8.96-34.689 4.172-50.492-1.423-57.64C233.217 10.847 211.614.683 185.552.372c-13.903-.17-26.108 2.575-32.475 4.549c-5.928-1.046-12.302-1.63-18.99-1.738c-12.537-.2-23.614 2.533-33.079 8.15c-5.24-1.772-13.65-4.27-23.362-5.864c-22.842-3.75-41.252-.828-54.718 8.685C6.622 25.672-.937 45.684.461 73.634c.444 8.874 5.408 35.874 13.224 61.48c4.492 14.718 9.282 26.94 14.237 36.33c7.027 13.315 14.546 21.156 22.987 23.972c4.731 1.576 13.327 2.68 22.368-4.85c1.146 1.388 2.675 2.767 4.704 4.048c2.577 1.625 5.728 2.953 8.875 3.74c11.341 2.835 21.964 2.126 31.027-1.848c.056 1.612.099 3.152.135 4.482c.06 2.157.12 4.272.199 6.25c.537 13.374 1.447 23.773 4.143 31.049c.148.4.347 1.01.557 1.657c1.345 4.118 3.594 11.012 9.316 16.411c5.925 5.593 13.092 7.308 19.656 7.308c3.292 0 6.433-.432 9.188-1.022c9.82-2.105 20.973-5.311 29.041-16.799c7.628-10.86 11.336-27.217 12.007-52.99c.087-.729.167-1.425.244-2.088l.16-1.362l1.797.158l.463.031c10.002.456 22.232-1.665 29.743-5.154c5.935-2.754 24.954-12.795 20.476-26.351"/><path fill="#336791" d="M237.906 160.722c-29.74 6.135-31.785-3.934-31.785-3.934c31.4-46.593 44.527-105.736 33.2-120.211c-30.904-39.485-84.399-20.811-85.292-20.327l-.287.052c-5.876-1.22-12.451-1.946-19.842-2.067c-13.456-.22-23.664 3.528-31.41 9.402c0 0-95.43-39.314-90.991 49.444c.944 18.882 27.064 142.873 58.218 105.422c11.387-13.695 22.39-25.274 22.39-25.274c5.464 3.63 12.006 5.482 18.864 4.817l.533-.452c-.166 1.7-.09 3.363.213 5.332c-8.026 8.967-5.667 10.541-21.711 13.844c-16.235 3.346-6.698 9.302-.471 10.86c7.549 1.887 25.013 4.561 36.813-11.958l-.47 1.885c3.144 2.519 5.352 16.383 4.982 28.952c-.37 12.568-.617 21.197 1.86 27.937c2.479 6.74 4.948 21.905 26.04 17.386c17.623-3.777 26.756-13.564 28.027-29.89c.901-11.606 2.942-9.89 3.07-20.267l1.637-4.912c1.887-15.733.3-20.809 11.157-18.448l2.64.232c7.99.363 18.45-1.286 24.589-4.139c13.218-6.134 21.058-16.377 8.024-13.686h.002"/><path fill="#FFF" d="M108.076 81.525c-2.68-.373-5.107-.028-6.335.902c-.69.523-.904 1.129-.962 1.546c-.154 1.105.62 2.327 1.096 2.957c1.346 1.784 3.312 3.01 5.258 3.28c.282.04.563.058.842.058c3.245 0 6.196-2.527 6.456-4.392c.325-2.336-3.066-3.893-6.355-4.35m88.784.073c-.256-1.831-3.514-2.353-6.606-1.923c-3.088.43-6.082 1.824-5.832 3.659c.2 1.427 2.777 3.863 5.827 3.863c.258 0 .518-.017.78-.054c2.036-.282 3.53-1.575 4.24-2.32c1.08-1.136 1.706-2.402 1.591-3.225"/><path fill="#FFF" d="M247.802 160.025c-1.134-3.429-4.784-4.532-10.848-3.28c-18.005 3.716-24.453 1.142-26.57-.417c13.995-21.32 25.508-47.092 31.719-71.137c2.942-11.39 4.567-21.968 4.7-30.59c.147-9.463-1.465-16.417-4.789-20.665c-13.402-17.125-33.072-26.311-56.882-26.563c-16.369-.184-30.199 4.005-32.88 5.183c-5.646-1.404-11.801-2.266-18.502-2.376c-12.288-.199-22.91 2.743-31.704 8.74c-3.82-1.422-13.692-4.811-25.765-6.756c-20.872-3.36-37.458-.814-49.294 7.571c-14.123 10.006-20.643 27.892-19.38 53.16c.425 8.501 5.269 34.653 12.913 59.698c10.062 32.964 21 51.625 32.508 55.464c1.347.449 2.9.763 4.613.763c4.198 0 9.345-1.892 14.7-8.33a529.832 529.832 0 0 1 20.261-22.926c4.524 2.428 9.494 3.784 14.577 3.92c.01.133.023.266.035.398a117.66 117.66 0 0 0-2.57 3.175c-3.522 4.471-4.255 5.402-15.592 7.736c-3.225.666-11.79 2.431-11.916 8.435c-.136 6.56 10.125 9.315 11.294 9.607c4.074 1.02 7.999 1.523 11.742 1.523c9.103 0 17.114-2.992 23.516-8.781c-.197 23.386.778 46.43 3.586 53.451c2.3 5.748 7.918 19.795 25.664 19.794c2.604 0 5.47-.303 8.623-.979c18.521-3.97 26.564-12.156 29.675-30.203c1.665-9.645 4.522-32.676 5.866-45.03c2.836.885 6.487 1.29 10.434 1.289c8.232 0 17.731-1.749 23.688-4.514c6.692-3.108 18.768-10.734 16.578-17.36Zm-44.106-83.48c-.061 3.647-.563 6.958-1.095 10.414c-.573 3.717-1.165 7.56-1.314 12.225c-.147 4.54.42 9.26.968 13.825c1.108 9.22 2.245 18.712-2.156 28.078a36.508 36.508 0 0 1-1.95-4.009c-.547-1.326-1.735-3.456-3.38-6.404c-6.399-11.476-21.384-38.35-13.713-49.316c2.285-3.264 8.084-6.62 22.64-4.813Zm-17.644-61.787c21.334.471 38.21 8.452 50.158 23.72c9.164 11.711-.927 64.998-30.14 110.969a171.33 171.33 0 0 0-.886-1.117l-.37-.462c7.549-12.467 6.073-24.802 4.759-35.738c-.54-4.488-1.05-8.727-.92-12.709c.134-4.22.692-7.84 1.232-11.34c.663-4.313 1.338-8.776 1.152-14.037c.139-.552.195-1.204.122-1.978c-.475-5.045-6.235-20.144-17.975-33.81c-6.422-7.475-15.787-15.84-28.574-21.482c5.5-1.14 13.021-2.203 21.442-2.016ZM66.674 175.778c-5.9 7.094-9.974 5.734-11.314 5.288c-8.73-2.912-18.86-21.364-27.791-50.624c-7.728-25.318-12.244-50.777-12.602-57.916c-1.128-22.578 4.345-38.313 16.268-46.769c19.404-13.76 51.306-5.524 64.125-1.347c-.184.182-.376.352-.558.537c-21.036 21.244-20.537 57.54-20.485 59.759c-.002.856.07 2.068.168 3.735c.362 6.105 1.036 17.467-.764 30.334c-1.672 11.957 2.014 23.66 10.111 32.109a36.275 36.275 0 0 0 2.617 2.468c-3.604 3.86-11.437 12.396-19.775 22.426Zm22.479-29.993c-6.526-6.81-9.49-16.282-8.133-25.99c1.9-13.592 1.199-25.43.822-31.79c-.053-.89-.1-1.67-.127-2.285c3.073-2.725 17.314-10.355 27.47-8.028c4.634 1.061 7.458 4.217 8.632 9.645c6.076 28.103.804 39.816-3.432 49.229c-.873 1.939-1.698 3.772-2.402 5.668l-.546 1.466c-1.382 3.706-2.668 7.152-3.465 10.424c-6.938-.02-13.687-2.984-18.819-8.34Zm1.065 37.9c-2.026-.506-3.848-1.385-4.917-2.114c.893-.42 2.482-.992 5.238-1.56c13.337-2.745 15.397-4.683 19.895-10.394c1.031-1.31 2.2-2.794 3.819-4.602l.002-.002c2.411-2.7 3.514-2.242 5.514-1.412c1.621.67 3.2 2.702 3.84 4.938c.303 1.056.643 3.06-.47 4.62c-9.396 13.156-23.088 12.987-32.921 10.526Zm69.799 64.952c-16.316 3.496-22.093-4.829-25.9-14.346c-2.457-6.144-3.665-33.85-2.808-64.447c.011-.407-.047-.8-.159-1.17a15.444 15.444 0 0 0-.456-2.162c-1.274-4.452-4.379-8.176-8.104-9.72c-1.48-.613-4.196-1.738-7.46-.903c.696-2.868 1.903-6.107 3.212-9.614l.549-1.475c.618-1.663 1.394-3.386 2.214-5.21c4.433-9.848 10.504-23.337 3.915-53.81c-2.468-11.414-10.71-16.988-23.204-15.693c-7.49.775-14.343 3.797-17.761 5.53c-.735.372-1.407.732-2.035 1.082c.954-11.5 4.558-32.992 18.04-46.59c8.489-8.56 19.794-12.788 33.568-12.56c27.14.444 44.544 14.372 54.366 25.979c8.464 10.001 13.047 20.076 14.876 25.51c-13.755-1.399-23.11 1.316-27.852 8.096c-10.317 14.748 5.644 43.372 13.315 57.129c1.407 2.521 2.621 4.7 3.003 5.626c2.498 6.054 5.732 10.096 8.093 13.046c.724.904 1.426 1.781 1.96 2.547c-4.166 1.201-11.649 3.976-10.967 17.847c-.55 6.96-4.461 39.546-6.448 51.059c-2.623 15.21-8.22 20.875-23.957 24.25Zm68.104-77.936c-4.26 1.977-11.389 3.46-18.161 3.779c-7.48.35-11.288-.838-12.184-1.569c-.42-8.644 2.797-9.547 6.202-10.503c.535-.15 1.057-.297 1.561-.473c.313.255.656.508 1.032.756c6.012 3.968 16.735 4.396 31.874 1.271l.166-.033c-2.042 1.909-5.536 4.471-10.49 6.772Z"/></svg>
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" zx2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">PostgreSQL
+                            </h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">Just big Relational DB</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills details section  -->
+
+
+    <div class="container skillsdelt mx-auto pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2" id="leftSection">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">First Pet-Project
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Learn Algrorithm Tasks
+                        </h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">
+                            This project implements the principle of "spaced repetition" algorithm, 
+                            which implies repetition of previously learned material taking into 
+                            account the evaluation of the user's understanding of the topic. 
+                            When you solve a problem or go through a tutorial, 
+                            the bot asks you to evaluate your understanding of the topic. 
+                            Based on your assessment, the bot determines the optimal time for the next repetition of the task. 
+                            This allows you to learn the material more efficiently and increases the effectiveness of learning.</p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="https://github.com/AktanKasymaliev/django-tgbot-algoritms" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            See code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2 anime" id="rightSection">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img style="border-radius: 40px;"
+                                src="learn-1.png"
+                                alt="Image" class="w-full h-auto rounded-lg">                              </div>
+                              <div class="carousel-item">
+                                <img style="border-radius: 40px;"
+                                src="learn-2.png"
+                                alt="Image" class="w-full h-auto rounded-lg">                              </div>
+                            </div>
+                            <button style="border-radius: 37px;" class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button style="border-radius: 37px;" class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Следующий</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2 anime" id="rightSection1">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4 ">
+                        <iframe width="500" height="560"
+                        src="https://www.youtube.com/embed/oSCxCxAh9cw"
+                        title="YouTube video player"
+                        frameborder="0"
+                        style="border-radius: 37px;"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2" id="leftSection1">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Second Pet-Project
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Visa Appointer Bot</h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">
+                            This project is an automated bot, developed using Selenium, 
+                            which helps people to go through the process of registering and scheduling an interview for a visa to Poland.
+                            The bot provides the user with a convenient and efficient way to fill in the necessary forms and data required to register for a visa interview. It automatically fills in the relevant fields of the web forms on the official website of the Polish Consulate based on the data provided by the user.
+                            This saves time and simplifies the process of applying for a visa. The user enters his/her data into the bot's interface, and then the bot automatically performs the sequence of actions on the web page that is usually required to register for an interview.
+                        </p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="https://github.com/AktanKasymaliev/Appointment-bot" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            See code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- line no 3 -->
+
+
+    <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2" id="leftSection2">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Third Pet-Project
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">
+                            Diagnoses Bot-Predictor
+                        </h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">
+                            This project is a chatbot based on the GPT (Generative Pre-trained Transformer) architecture, 
+                            which has a wide database containing information about various diseases. 
+                            Due to this, the bot is able to identify possible causes of a disease when a user contacts it with complaints about their health condition.
+                            The user can interact with the bot by describing their symptoms and health condition. 
+                            Based on this data and analyzing the available medical dataset, 
+                            the chatbot provides probable diagnoses and assumptions about the causes of the disease.
+                            The goal of the project is to create a user-friendly tool for users that can help identify 
+                            possible causes of diseases and direct them to more detailed medical examinations and consultations with qualified specialists.
+                        </p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="https://github.com/AktanKasymaliev/predict-by-symptoms" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            See code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2  anime" id="rightSection2">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4">
+                        <img height="500" width="500"
+                            src="gpt3.png"
+                            alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2 anime" id="rightSection1">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4 ">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tPRnjlM7bnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2" id="leftSection1">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Second Pet-Project
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Sentiment Analyzing</h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">
+                            This project focuses on text tone analysis, also known as sentiment analysis. It uses advanced Natural Language Processing (NLP) techniques to identify and classify emotional coloration in text data.
+                            The goal of this project is to automatically assess the emotional coloring or nuance of a text to determine whether the text is positive, negative or neutral. The project can be applied in various fields such as analyzing user feedback, determining sentiment in social media, monitoring public opinion, and other applications where understanding people's attitudes towards certain topics or products is important.        
+                            During the project, text is processed using various NLP techniques such as tokenization, stop word removal, lemmatization and vectorization. After text preprocessing, a machine learning model is trained on the labeled data to classify texts into three main categories - positive, negative and neutral.
+                        </p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="https://github.com/AktanKasymaliev/flask-sentiment-analysis/" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            See code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="center-button">
+        <button style="background-color: #ffaf29;">yeaah!
+            <div class="star-1">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-2">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-3">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-4">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-5">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-6">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+        </button>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                arrows: false,
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+
+
+    <!-- footer section  -->
+
+
+    <div class="footer1">
+
+        <div class="logo_sec">
+            <span class="logo navLogo">
+                <!-- <img src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/logo-header.svg"> -->
+                <svg data-v-6805eed4="" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="65%" height="50%"
+                viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet"
+                color-interpolation-filters="sRGB" style="margin: auto;">
+                <g data-v-6805eed4="" fill="#fff" class="bordersvg b-d1"
+                    transform="translate(31.056673526763916,46.64749440492278)">
+                    <path fill-opacity="0" stroke="#fff" stroke-width="3"
+                        d="M 146.7050018310547 52.247501373291016 A 78.35250091552734 78.35250091552734 0 1 0 146.7050018310547 104.45750045776367">
+                    </path>
+                    <g transform="translate(10,52.247501373291016)">
+                        <g>
+                            <rect data-gra="graph-name-bg" stroke-width="2" class="i-icon-bg" x="0" y="0"
+                                width="273.4100036621094" height="52.209999084472656" fill-opacity="0"></rect>
+                            <!----> <!---->
+                        </g>
+                        <g transform="translate(10,3)">
+                            <g data-gra="path-name" fill-rule="" class="tp-name">
+                                <g transform="scale(1)">
+                                    <g>
+                                        <path
+                                            d="M55.17 0L51.14 0 51.14-21.46 11.47-21.46 11.47 0 7.44 0 7.44-44.28 11.47-44.28 11.47-25.2 51.14-25.2 51.14-44.28 55.17-44.28 55.17 0ZM116.18 0L112.18 0 112.18-4.9Q109.86-3.64 106.91-2.58 103.96-1.51 100.69-0.74 97.42 0.03 93.97 0.45 90.53 0.87 87.21 0.87L87.21 0.87Q82.89 0.87 79.46 0.1 76.02-0.68 73.64-2.21 71.25-3.74 69.97-6.01 68.68-8.28 68.68-11.28L68.68-11.28Q68.68-14.24 70.18-16.52 71.67-18.79 74.45-20.48 77.22-22.17 81.13-23.35 85.05-24.52 89.88-25.35 94.72-26.17 100.34-26.7 105.96-27.23 112.18-27.59L112.18-27.59 112.18-30.97Q112.18-33.03 111.41-34.61 110.64-36.19 109.25-37.37 107.86-38.54 106-39.33 104.13-40.12 101.95-40.61 99.78-41.09 97.37-41.3 94.97-41.51 92.56-41.51L92.56-41.51Q89.3-41.51 86.63-41.19 83.95-40.86 81.63-40.3 79.31-39.74 77.18-38.99 75.06-38.25 72.9-37.42L72.9-37.42 72.9-42.12Q77.38-43.31 82.45-44.2 87.53-45.08 93.23-45.08L93.23-45.08Q98.07-45.08 102.26-44.26 106.45-43.44 109.54-41.64 112.63-39.83 114.41-36.98 116.18-34.13 116.18-30.04L116.18-30.04 116.18 0ZM112.18-9.12L112.18-24.01Q101.64-23.43 94.18-22.37 86.72-21.3 81.99-19.75 77.25-18.21 75.04-16.15 72.83-14.08 72.83-11.47L72.83-11.47Q72.83-9.35 73.91-7.7 74.99-6.06 77.02-4.95 79.05-3.83 81.95-3.27 84.85-2.71 88.46-2.71L88.46-2.71Q90.59-2.71 92.86-2.95 95.13-3.19 97.39-3.63 99.65-4.06 101.84-4.66 104.03-5.25 105.96-5.96 107.9-6.67 109.49-7.48 111.09-8.28 112.18-9.12L112.18-9.12ZM132.71-44.28L136.74-44.28 136.74-37.48Q138.16-38.7 139.9-40.09 141.64-41.48 143.73-42.64 145.83-43.8 148.28-44.57 150.73-45.34 153.53-45.34L153.53-45.34Q158.01-45.34 161.46-43.33 164.91-41.31 167.03-37.09L167.03-37.09Q169.1-38.99 171.29-40.52 173.48-42.06 175.78-43.12 178.09-44.18 180.54-44.76 182.99-45.34 185.6-45.34L185.6-45.34Q188.92-45.34 191.64-44.21 194.36-43.09 196.26-41.12 198.17-39.16 199.21-36.5 200.26-33.84 200.26-30.81L200.26-30.81 200.26 0 196.23 0 196.23-29.78Q196.23-32.55 195.57-34.72 194.91-36.9 193.51-38.41 192.11-39.93 189.93-40.72 187.76-41.51 184.73-41.51L184.73-41.51Q182.31-41.51 179.94-40.81 177.57-40.12 175.41-38.98 173.25-37.83 171.38-36.38 169.52-34.93 168.1-33.39L168.1-33.39Q168.26-32.48 168.27-31.84 168.29-31.2 168.29-30.29L168.29-30.29 168.29 0 164.26 0 164.26-29.78Q164.26-33.06 163.39-35.3 162.52-37.54 160.98-38.93 159.43-40.32 157.32-40.91 155.21-41.51 152.73-41.51L152.73-41.51Q150.37-41.51 148.07-40.7 145.76-39.9 143.67-38.61 141.58-37.32 139.8-35.72 138.03-34.13 136.74-32.55L136.74-32.55 136.74 0 132.71 0 132.71-44.28ZM255.79 0L236.65-20.01 217.57 0 212.48 0 234.13-22.72 213.54-44.28 218.63-44.28 236.65-25.33 254.72-44.28 259.82-44.28 239.22-22.72 260.85 0 255.79 0Z"
+                                            transform="translate(-7.440000057220459, 45.34000015258789)"></path>
+                                    </g> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+                                </g>
+                            </g> <!---->
+                        </g>
+                    </g>
+                </g>
+                <defs v-gra="od"></defs>
+            </svg>
+            </span>
+
+        </div>
+        <div class="otheracc">
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-638ce13"
+                    href="https://www.linkedin.com/in/aktankasymaliev/" target="_blank">
+
+                    <i class="fab fa-linkedin-in"></i> </a>
+            </div>>
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-c0177e3"
+                    href="https://t.me/aktankasymaliev/" target="_blank">
+
+                    <i class="fab fa-telegram"></i> </a>
+            </div>>
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-behance elementor-repeater-item-45053c6"
+                    href="https://github.com/AktanKasymaliev" target="_blank">
+                    <i class="fab fa-github"></i> </a>
+            </div>>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script>
+
+
+
+        const intersectionCallback = (entries) => {
+            for (const entry of entries) { // Loop over all elements that either enter or exit the view.
+                if (entry.isIntersecting) { // This is true when the element is in view.
+                    entry.target.classList.add('animatedcard'); // Add a class.
+                }
+            }
+        }
+
+        /**
+         * Create a observer and use the instersectionCallback as 
+         * the instructions for what to do when an element enters
+         * or leaves the view
+         */
+        const observer = new IntersectionObserver(intersectionCallback);
+
+        /**
+         * Get all .item elements and loop over them.
+         * Observe each individual item.
+         */
+        const items = document.querySelectorAll('.anime');
+        for (const item of items) {
+            observer.observe(item);
+            console.log("observ");
+        }
+
+    </script>
+
+    <script>
+        $(window).on('scroll', function () {
+            var st = $(this).scrollTop(),
+                vh = $(this).height(),
+                $counter = $('.wrapperx'),
+                ct = $counter.offset().top;
+            if ((st + vh) > ct) {
+                // #counter is in the viewport
+
+                let valueDisplays = document.querySelectorAll(".num");
+                let interval = 100;
+
+                valueDisplays.forEach((valueDisplay) => {
+                    let startValue = 0;
+                    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+                    let duration = Math.floor(interval / endValue);
+                    let counter = setInterval(function () {
+                        startValue += 1;
+                        valueDisplay.textContent = startValue;
+                        if (startValue == endValue) {
+                            clearInterval(counter);
+                        }
+                    }, duration);
+                });
+            }
+        })</script>
+
+</body>
+</body>
+
+</html>
